@@ -1,0 +1,28 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+div {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  transition: color, 0.2s;
+  padding: 1em;
+}
+
+a:hover {
+  color: #aaa;
+}
